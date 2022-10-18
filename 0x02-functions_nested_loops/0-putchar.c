@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int alx[8] = "_putchar";
+	char alx[8] = "_putchar";
 	int i;
 
 	for (i = 0; i < 8; i++)
 		_putchar(alx[i]);
 
-		_putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
